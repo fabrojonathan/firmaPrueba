@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <div class="title">
+        <div><a href=""><img src="./logoCiocca.png" alt=""></a></div>
+        <div class="titleDirection"><a href="">WWW.CIOCCAPLAST.COM.AR</a></div>
+    </div>
+    
+    <div class="description">
+        <div>
+            <p>
+                <b>Dpto. Comercial</b><br>
+                Tel. +54 11 4248-6654
+            </p>
+        </div>
+        <div>
+            <p>
+                <a href="mailto:compras@cioccaplast.com.ar">Compras@cioccaplast.com.ar</a><br>
+                Carlos Glade 950 - Banfield<br>
+                Buenos Aires - Argentina
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    body {
+        background-color: #e8e2e2;
+        width: 800px;
+        height: 500px;
+    }
+
+    .title, .description{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .titleDirection a{
+        text-decoration: none;
+        color: black;
+        border-bottom: red solid 3px;
+        margin-bottom: 10px;
+    }
+
+    .titleDirection{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .titleDirection a, .description div a{
+        text-decoration: none;
+        color:black;
+    }
+
+    .description p{
+        font-size: 1.2rem;
+    }
+</style>
